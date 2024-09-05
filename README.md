@@ -22,7 +22,6 @@ El proyecto se dividió en las siguientes fases:
   - Eliminación de valores nulos y duplicados.
   - Formateo de strings para asegurar la coherencia.
   - Estandarización de las columnas para facilitar el análisis.
-  - Aplicación de expresiones regulares (Regex) para la extracción de información relevante.
   - Revisión y manipulación de columnas que contienen fechas.
  
 - Análisis Exploratorio de Datos (EDA):
