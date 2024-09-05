@@ -1,4 +1,3 @@
-# Project G1 Shark Attack
 
 # Descripción del proyecto.
 
