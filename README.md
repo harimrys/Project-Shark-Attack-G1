@@ -6,10 +6,9 @@ Este proyecto se centra en limpiar y analizar un conjunto de datos desordenado s
 
 # Hipótesis.
 Durante el proyecto, formulamos las siguientes hipótesis para guiar nuestro proceso de análisis:
-
-Los ataques de tiburones ocurren con mayor frecuencia en ciertas ubicaciones geográficas.
-Los tiburones atacan más a personas que realizan actividades acuáticas como el surf.
-Los ataques de tiburones son más comunes en hombres que en mujeres.
+- Los ataques de tiburones ocurren con mayor frecuencia en ciertas ubicaciones geográficas.
+- Los tiburones atacan más a personas que realizan actividades acuáticas como el surf.
+- Los ataques de tiburones son más comunes en hombres que en mujeres.
 
 
 # Estructura del proyecto.
