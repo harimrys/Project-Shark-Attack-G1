@@ -45,7 +45,7 @@ El proyecto se dividió en las siguientes fases:
 - Hipótesis 1: Confirmada. Los ataques de tiburones son más frecuentes en zonas costeras de Estados Unidos de America, Australia y Sudáfrica.
 - Hipótesis 2: Confirmada a medias. Las personas que practican surf tienen una mayor probabilidad de sufrir un ataque de tiburón. En cambio, no hemos podido confirmar la hipótesis de que las personas que 
   practican buceo tengan más probabilidades.
-- Hipótesis 3: Confirmada. Los ataques de tiburones muestran una tendencia clara hacia personas del sexo masculino. 
+- Hipótesis 3: Confirmada. Los hombres son más propensos a sufrir ataques de tiburón. 
   
 # Conclusiones.
 El análisis de los datos de ataques de tiburones permitió identificar patrones importantes que pueden ser útiles para empresas que venden experiencias acuáticas, como tours de buceo o clases de surf. 
