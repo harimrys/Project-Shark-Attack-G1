@@ -19,3 +19,50 @@ El proyecto se dividió en las siguientes fases:
   - Identificar problemas como valores nulos, datos duplicados, y la necesidad de formatear   
     columnas.
  
+- Limpieza de datos: Aplicar al menos cinco técnicas de limpieza de datos.
+  - Eliminación de valores nulos y duplicados.
+  - Formateo de strings para asegurar la coherencia.
+  - Estandarización de las columnas para facilitar el análisis.
+  - Aplicación de expresiones regulares (Regex) para la extracción de información relevante.
+  - Revisión y manipulación de columnas que contienen fechas.
+ 
+- Análisis Exploratorio de Datos (EDA):
+  - Realizamos un análisis exploratorio para validar las hipótesis utilizando técnicas de   
+    agregación y visualización de datos en distintos gráficos.
+
+- Presentación de resultados:
+  - Los resultados fueron presentados a través de una narrativa clara que destaca los hallazgos     más relevantes y visualizaciones que ilustran las tendencias identificadas.
+
+# Estructura de archivos:
+- main.ipynb: Cuaderno de Jupyter con todo el código de limpieza y análisis.
+- clean.py: Archivo Python que contiene funciones reutilizables para la limpieza de datos.
+- data/: Carpeta que contiene el dataset original y el dataset limpio.
+- show_top: Carpeta que contiene las visualizaciones generadas durante el EDA.
+- README.md: Documentación del proyecto.
+
+# Tecnologías utilizadas.
+- Lenguaje de programación: Python
+- Librerías principales: 
+  - pandas: Para manipulación y limpieza de datos.
+  - matplotlib y seaborn: Para la creación de visualizaciones.
+  - re: Para aplicar expresiones regulares (Regex).
+
+# Resultados.
+- Hipótesis 1: Confirmada. Los ataques de tiburones son más frecuentes en zonas costeras 
+    tropicales como Australia y Sudáfrica.
+- Hipótesis 2: Confirmada. Las personas que practican surf tienen una mayor probabilidad de   
+    sufrir un ataque de tiburón.
+- Hipótesis 3: Refutada. Los ataques de tiburones muestran una tendencia clara hacia personas 
+    del sexo masculino.
+  
+# Conclusiones.
+El análisis de los datos de ataques de tiburones permitió identificar patrones importantes que pueden ser útiles para empresas que venden experiencias acuáticas, como tours de buceo o equipos de surf. 
+
+# Equipo.
+Este proyecto fue realizado por: 
+- Alejandro Alegre 
+- Haridian Lugo Morays 
+- José Miguel Sánchez
+- Hugo Ortuño Suárez
+
+
