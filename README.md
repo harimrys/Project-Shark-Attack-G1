@@ -15,5 +15,7 @@ Los ataques de tiburones son más comunes en hombres que en mujeres.
 # Estructura del proyecto.
 El proyecto se dividió en las siguientes fases:
 - Análisis inicial del dataset:
-- Cargar el dataset en Python y revisar su estructura.
-- Identificar problemas como valores nulos, datos duplicados, y la necesidad de formatear columnas.
+  - Cargar el dataset en Python y revisar su estructura.
+  - Identificar problemas como valores nulos, datos duplicados, y la necesidad de formatear   
+    columnas.
+ 
