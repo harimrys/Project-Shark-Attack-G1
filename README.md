@@ -33,9 +33,7 @@ El proyecto se dividió en las siguientes fases:
 
 # Estructura de archivos:
 - main.ipynb: Cuaderno de Jupyter con todo el código de limpieza y análisis.
-- clean.py: Archivo Python que contiene funciones reutilizables para la limpieza de datos.
-- data/: Carpeta que contiene el dataset original y el dataset limpio.
-- show_top: Carpeta que contiene las visualizaciones generadas durante el EDA.
+- functions.py: Archivo Python que contiene funciones reutilizables para la limpieza de datos.
 - README.md: Documentación del proyecto.
 
 # Tecnologías utilizadas.
