@@ -1,6 +1,4 @@
 # Project G1 Shark Attack
- 
-# Data Wrangling Quest: Shark Attacks Analysis
 
 # Descripción del proyecto.
 
