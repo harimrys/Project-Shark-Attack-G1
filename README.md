@@ -27,11 +27,10 @@ El proyecto se dividió en las siguientes fases:
   - Revisión y manipulación de columnas que contienen fechas.
  
 - Análisis Exploratorio de Datos (EDA):
-  - Realizamos un análisis exploratorio para validar las hipótesis utilizando técnicas de   
-    agregación y visualización de datos en distintos gráficos.
+  - Realizamos un análisis exploratorio para validar las hipótesis utilizando técnicas de agregación y visualización de datos en distintos gráficos.
 
 - Presentación de resultados:
-  - Los resultados fueron presentados a través de una narrativa clara que destaca los hallazgos     más relevantes y visualizaciones que ilustran las tendencias identificadas.
+  - Los resultados fueron presentados a través de una narrativa clara que destaca los hallazgos más relevantes y visualizaciones que ilustran las tendencias identificadas.
 
 # Estructura de archivos:
 - main.ipynb: Cuaderno de Jupyter con todo el código de limpieza y análisis.
@@ -45,18 +44,15 @@ El proyecto se dividió en las siguientes fases:
 - Librerías principales: 
   - pandas: Para manipulación y limpieza de datos.
   - matplotlib y seaborn: Para la creación de visualizaciones.
-  - re: Para aplicar expresiones regulares (Regex).
 
 # Resultados.
-- Hipótesis 1: Confirmada. Los ataques de tiburones son más frecuentes en zonas costeras 
-    tropicales como Australia y Sudáfrica.
-- Hipótesis 2: Confirmada. Las personas que practican surf tienen una mayor probabilidad de   
-    sufrir un ataque de tiburón.
-- Hipótesis 3: Refutada. Los ataques de tiburones muestran una tendencia clara hacia personas 
-    del sexo masculino.
+- Hipótesis 1: Confirmada. Los ataques de tiburones son más frecuentes en zonas costeras de Estados Unidos de America, Australia y Sudáfrica.
+- Hipótesis 2: Confirmada a medias. Las personas que practican surf tienen una mayor probabilidad de sufrir un ataque de tiburón. En cambio, no hemos podido confirmar la hipótesis de que las personas que 
+  practican buceo tengan más probabilidades.
+- Hipótesis 3: Confirmada. Los ataques de tiburones muestran una tendencia clara hacia personas del sexo masculino. 
   
 # Conclusiones.
-El análisis de los datos de ataques de tiburones permitió identificar patrones importantes que pueden ser útiles para empresas que venden experiencias acuáticas, como tours de buceo o equipos de surf. 
+El análisis de los datos de ataques de tiburones permitió identificar patrones importantes que pueden ser útiles para empresas que venden experiencias acuáticas, como tours de buceo o clases de surf. 
 
 # Equipo.
 Este proyecto fue realizado por: 
