@@ -9,11 +9,6 @@ def leer_datos(shark_url):
     return archivo
 
 
-def leer_datos(url):
-  
-    df = pd.read_excel(url)
-    return df
-
 def clean_data(df):
 
     pd.set_option("display.max_columns", None)
@@ -68,73 +63,23 @@ def value_and_type_change(df_mvp):
 
     return df_mvp
 
-def pivot_table(df_mvp):
-    pivot_fatal = df_mvp.pivot_table(values="fatal", index=["country", "year"], aggfunc="sum")
-
-    print("Ataques fatales por año y país")
-
-    return pivot_fatal
-
-
-def top_5_country(df):
-    group = df.groupby('country').size().reset_index(name='count')
+def top_5_country(df_mvp):
+    group = df_mvp.groupby('country').size().reset_index(name='count')
     top_5 = group.sort_values(by='count', ascending=False).head(5)
 
     return top_5
 
-def top_5_activities(df):
-    group_activity = df.groupby('activity').size().reset_index(name='count')
+def top_5_activities(df_mvp):
+    group_activity = df_mvp.groupby('activity').size().reset_index(name='count')
     top_5_activity = group_activity.sort_values(by='count', ascending=False).head(5)
 
     return top_5_activity
     
-def top_sex(df):
-    group_sex = df.groupby('sex').size().reset_index(name='count')
+def top_sex(df_mvp):
+    group_sex = df_mvp.groupby('sex').size().reset_index(name='count')
     top_sexs = group_sex.sort_values(by='count', ascending=False).head(3)
 
     return top_sexs
-
-def print_country(top_5):
-    plt.figure(figsize=(12, 8))
-    sns.barplot(x='country', y='count', data=top_5)
-
-    plt.title('SharkAttack last 50 years')
-    plt.xlabel('Country')
-    plt.ylabel('Attacks')
-    plt.xticks(rotation=45)
-    for index, value in enumerate(top_5['count']):
-        plt.text(index, value, str(value), ha='center', va='bottom')    
-
-    return plt.show()
-
-def print_activity(top_5_activity):
-    plt.figure(figsize=(12, 8))
-    sns.barplot(x='activity', y='count', data=top_5_activity)
-
-    plt.title('Activities more attacked')
-    plt.xlabel('Activity')
-    plt.ylabel('Attacks')
-    plt.xticks(rotation=45)
-    for index, value in enumerate(top_5_activity['count']):
-        plt.text(index, value, str(value), ha='center', va='bottom')  
-
-    show_activity = plt.show()
-    return show_activity
-
-def print_top_sex(top_sexs):
-    plt.figure(figsize=(12, 8))
-    sns.barplot(x='sex', y='count', data=top_sexs)
-
-    plt.title('Attack by sex')
-    plt.xlabel('Sex')
-    plt.ylabel('Attacks')
-    plt.xticks(rotation=0)
-
-    for index, value in enumerate(top_sexs['count']):
-        plt.text(index, value, str(value), ha='center', va='bottom')  
-
-    show_top_sex = plt.show()
-    return show_top_sex
 
 def show_top(data, x_col, y_col, title, x_label, y_label):
     plt.figure(figsize=(12, 8))
@@ -148,5 +93,5 @@ def show_top(data, x_col, y_col, title, x_label, y_label):
     for index, value in enumerate(data[y_col]):
         plt.text(index, value, str(value), ha='center', va='bottom')
 
-    return plt.show()
+    plt.show()
 
